@@ -6,6 +6,6 @@ services:
     restart: always
     build: .
     ports:
-      - $PORT:3000
+      - $WEB_PORT:3000
     volumes:
       - $DATA:/data/data
